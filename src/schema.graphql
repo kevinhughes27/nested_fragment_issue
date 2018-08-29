@@ -1,0 +1,16 @@
+type Foo {
+  id: ID!
+  name: String!
+}
+
+type Bar {
+  id: ID!
+  name: String!
+}
+
+type Query {
+  foo: Foo
+  foos: [Foo!]
+  bar: Bar
+  bars: [Bar!]
+}
